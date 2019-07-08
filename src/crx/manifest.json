@@ -1,0 +1,24 @@
+{
+  "name": "Chrome profile getter ext",
+  "version": "1.0",
+  "description": "Follow instructions in the readme or this won't work.",
+  "manifest_version": 2,
+  "permissions": [
+    "identity",
+    "storage"
+  ],
+  "background": {
+    "scripts": [
+      "./background.js"
+    ],
+    "persistent": false
+  },
+  "oauth2": {
+    "client_id": "make sure to fill this in!",
+    "scopes": [
+      "https://www.googleapis.com/auth/userinfo.email",
+      "https://www.googleapis.com/auth/userinfo.profile"
+    ]
+  },
+  "key": "make sure to fill this in!"
+}
