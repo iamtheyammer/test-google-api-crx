@@ -8,17 +8,11 @@ In this example, you'll install a chrome extension that will get the auth token,
 
 ## Adding admin granted scopes (optional)
 
-1. Open the google admin console
-2. Go to security
-3. Advanced settings
-4. Managed API client access
-5. In “Client Name”, put the oauth client ID
-6. In “One or More API Scopes”, put: `https://www.googleapis.com/auth/userinfo.email,https://www.googleapis.com/auth/userinfo.profile`
-7. Getting your extension set up
+Adding admin-granted scopes allows you (a G Suite Super-Administrator) to grant certain scopes to a specific client ID for your users, so they won't see the dialog asking for permission. To do that, follow [this](/AddingAdminGrantedScopes.md) guide.
 
 ## Get source code
 
-Download this repo
+Download this repo.
 
 ## Load extension as unpacked
 
